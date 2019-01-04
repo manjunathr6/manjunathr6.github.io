@@ -7,14 +7,6 @@ display: inline-block;
 
 }
 
-
-
-.section1 {
-    padding: 40px;
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 74% 86%, 75% 100%, 54% 86%, 0 87%);
-clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 74% 86%, 75% 100%, 54% 86%, 0 87%);
-    min-height: 340px;
-}
 .bg {
   background-color: #9acad2;
   padding: 20px;

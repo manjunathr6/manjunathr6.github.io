@@ -1,0 +1,90 @@
+/* left section styles */
+
+.section1 {
+  padding: 40px 40px;
+  color: var(--pureWhite);
+  min-height: calc(100vh - 0px);
+  background-color: var(--black03);
+}
+.title-wrapper {
+  padding-right: 20px;
+  color: var(--gray77);
+}
+.my-name {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 66px;
+  display: inline-block;
+}
+.my-profile {
+  font-size: 20px;
+  font-weight: 300;
+  vertical-align: bottom;
+}
+.my-bio {
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 300px;
+  font-style: italic;
+  color: var(--pureWhite);
+}
+.height-light {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--yellow43);
+}
+
+/* right column (skills) styles */
+
+.skill-column {
+  width: 100%;
+  max-width: 440px;
+}
+.skills-i-own {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  padding: 15px 10px;
+  position: relative;
+}
+.skills-i-own::before {
+  top: 0px;
+  left: 0px;
+  content: '';
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  border-radius: 3px;
+  display: inline-block;
+  border: 2px solid transparent;
+  border-top-color: var(--yellow43);
+  border-left-color: var(--yellow43);
+}
+.skills-i-own::after {
+  right: 0px;
+  bottom: 0px;
+  content: '';
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  position: absolute;
+  display: inline-block;
+  border: 2px solid transparent;
+  border-bottom-color: var(--yellow43);
+  border-right-color: var(--yellow43);
+}
+.skill-list-ul > li {
+  width: 100%
+  padding: 10px 0px;
+  border-bottom: 1px solid #00000080;
+}
+.skill-name {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--yellow43);
+  text-transform: uppercase;
+}
+.skill-description {
+  display: inline;
+}
