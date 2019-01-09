@@ -32,7 +32,7 @@
 .height-light {
   font-weight: 700;
   letter-spacing: 1px;
-  color: var(--yellow43);
+  color: var(--green85);
 }
 
 /* right column (skills) styles */
@@ -47,6 +47,7 @@
   line-height: 22px;
   padding: 15px 10px;
   position: relative;
+  color: var(--gray77);
 }
 .skills-i-own::before {
   top: 0px;
@@ -75,14 +76,14 @@
   border-right-color: var(--yellow43);
 }
 .skill-list-ul > li {
-  width: 100%
+  width: 100%;
   padding: 10px 0px;
   border-bottom: 1px solid #00000080;
 }
 .skill-name {
   font-weight: 700;
   letter-spacing: 1px;
-  color: var(--yellow43);
+  color: var(--green85);
   text-transform: uppercase;
 }
 .skill-description {

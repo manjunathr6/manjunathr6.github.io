@@ -5,6 +5,8 @@
   --black03: #030303;
   --gray77: #777777;
   --yellow43: #e8da43;
+  --orange54: #ff8754;
+  --green85: #82d685;
 }
 * {
 	margin: 0px; padding: 0px; box-sizing: border-box; outline: none; resize: none;
