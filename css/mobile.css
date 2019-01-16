@@ -1,3 +1,14 @@
-body {
-  padding: auto;
+.title-wrapper {
+  padding-right: 0px;
+}
+.my-name {
+  font-size: 36px;
+  line-height: 38px;
+}
+.my-profile {
+  display: block;
+  padding-bottom: 10px;
+}
+.my-bio {
+  padding-bottom: 20px;
 }
